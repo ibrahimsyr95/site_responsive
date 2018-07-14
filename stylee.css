@@ -105,8 +105,23 @@ h3{
 .center{
     display: flex;
     justify-content: center;
+    align-content: center;
     position: relative;
-    
     flex-direction: column;
     text-align: center;
+}
+
+
+.bgimg {
+    background-image: url("images/CyberSecurity_PSS_v1.png");
+    min-height: 400px;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+   align-content: center;
+    
 }
